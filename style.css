@@ -1,0 +1,65 @@
+.header{
+    background-size: cover;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.rocsf.org.tw/wp-content/uploads/bn04_scaled.png");
+}
+
+.header h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+p {
+    font-size: 18px;  
+}
+
+.fp::first-letter{
+    font-size: 150%;
+}
+
+.content{
+    padding: 50px;
+}
+
+.link {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
